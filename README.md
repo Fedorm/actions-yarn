@@ -23,10 +23,10 @@ jobs:
       - uses: fedorm/actions-yarn@master
         with:
           cmd: install # will run `yarn install` command
-      - uses: fedorm/actions-yarn@master
+      - uses: fedorm/actions-yarn@master.v2
         with:
           cmd: build # will run `yarn build` command
-      - uses: fedorm/actions-yarn@master
+      - uses: fedorm/actions-yarn@master.v2
         with:
           cmd: test # will run `yarn test` command
 ```
