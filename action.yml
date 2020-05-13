@@ -1,4 +1,4 @@
-name: 'GitHub Action for Yarn'
+name: 'GitHub Action for Yarn With Always-Auth'
 description: 'Wraps the yarn CLI to enable common yarn commands'
 branding:
   icon: 'package'
