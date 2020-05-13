@@ -19,14 +19,14 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: borales/actions-yarn@v2.0.0
+      - uses: actions/checkout@master
+      - uses: fedorm/actions-yarn@master
         with:
           cmd: install # will run `yarn install` command
-      - uses: borales/actions-yarn@v2.0.0
+      - uses: fedorm/actions-yarn@master
         with:
           cmd: build # will run `yarn build` command
-      - uses: borales/actions-yarn@v2.0.0
+      - uses: fedorm/actions-yarn@master
         with:
           cmd: test # will run `yarn test` command
 ```
